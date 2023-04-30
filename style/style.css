@@ -1,0 +1,234 @@
+{
+	border: 1px solid red;
+}
+
+
+.body {
+    font-family:  'Delicious Handrawn', cursive;
+    margin: 0;
+}
+
+.header{
+    font-family:  'Delicious Handrawn', cursive;
+}
+
+.text {
+    font-family:  'Delicious Handrawn', cursive;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	height: 70px;
+	background-color: rgb #F4F1ED;
+}
+
+
+.header__container {
+	display: flex;
+	justify-content: space-around;
+	width: 1400px;
+	margin: 85px;
+	flex-grow: 2;
+}
+
+.image_icon_pizza{
+background-image: url(/style/img/icon_pizza.png);
+position: absolute;
+width: 51px;
+height: 51px;
+left: 230px;
+top: 18px;
+}
+
+.header__logo {
+    font-family: 'Delicious Handrawn', cursive;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 22px;
+    line-height: 30px;
+    
+    text-align: start;
+    letter-spacing: 1.6px;
+    
+    color: #C72A00;
+}
+
+.navigation {
+display: flex;
+justify-content: space-around;
+
+}
+
+.navigation__item1{
+    position: absolute;
+    width: 69px;
+    height: 20px;
+    left: 620px;
+    top: 38px;
+    
+    font-family: 'Delicious Handrawn', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+    
+    text-align: center;
+    
+    color: #18181B
+}
+
+.navigation__item2{
+position: absolute;
+width: 46px;
+height: 20px;
+left: 720px;
+top: 38px;
+
+font-family: 'Delicious Handrawn', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #18181B;
+}
+
+.navigation__item3{
+position: absolute;
+width: 30px;
+height: 20px;
+left: 820px;
+top: 38px;
+    
+font-family: 'Delicious Handrawn', cursive;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+    
+color: #18181B;
+}
+
+.navigation__item4{
+position: absolute;
+width: 34px;
+height: 20px;
+left: 920px;
+top: 38px;
+
+font-family: 'Delicious Handrawn', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #18181B;
+}
+
+.navigation__item5{
+position: absolute;
+width: 46px;
+height: 20px;
+left: 1024px;
+top: 38px;
+
+font-family: 'Delicious Handrawn', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+text-align: center;
+
+color: #18181B;
+}
+
+/*кнопка*/
+
+.buttons {
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+
+.button {
+box-sizing: border-box;
+position: absolute;
+width: 79px;
+height: 33px;
+left: 1189px;
+top: 29px; 
+background: #B4A139;
+border: 1px solid #4CFDC7;
+border-radius: 4px;
+background: #B4A139;
+border: 1px solid #D1DBD6;
+border-radius: 1000px;
+}
+
+section {
+width: 1170px;
+height: calc(100vh-8px);
+margin: auto;
+background-color:  #fff;
+}
+
+.image__pizza {
+height: auto;
+width: 100%;
+max-width: 720px;
+object-fit: cover;
+border-radius: 15px 15px 15px 15px;
+margin-top: 0;
+margin-bottom: 10px;
+width: 280px;
+height: 280px;
+}
+
+
+
+.title {
+font-family:  'Delicious Handrawn', cursive;
+color: #18181B;
+
+}
+
+.price {
+font-family:  'Delicious Handrawn', cursive;
+color: #18181B;
+}
+
+.pizza {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 20px rgb(90, 90, 90);
+    margin-bottom: 23px;
+    background-color: #fff;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.all__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pizza__box{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 20px rgb(90, 90, 90);
+    margin-bottom: 23px;
+    background-color:   #fff;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 15px;
+}
